@@ -20,6 +20,11 @@ public class StockList {
     public StockList() {
         this.list = new LinkedHashMap<>();
     }
+    
+    private void myMethod() {
+		// TODO Auto-generated method stub
+
+	}
 
     public int addStock(StockItem item) {
         if(item != null) {
